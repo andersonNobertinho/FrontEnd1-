@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Checkpoint 2</title>
+</head>
+
+<body>
+
+    <form action="/usuario/cadastro" method="GET" id="usrcad">
+        <fieldset>
+            <legend>Conheça a cidade de São Paulo</legend>
+            <div id="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" maxlength="100" name="nome" id="nome" required placeholder="Digite o seu nome">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required placeholder="Digite o seu e-mail">
+                <label for="telefone">Telefone:</label>
+                <input type="number" name="telefone" id="telefone"  required placeholder="(xx)xxxxx-xxxx">
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" name="data" required>
+            </div>
+
+            <div class="faixa">
+                <p>Selecione faixa etária</p>
+                <div class="radio">
+                    <label for="MaiorIdade ">Maior de Idade</label>
+                    <input type="radio" name="idade" id="MaiorIdade">
+                </div>
+
+                <div class="radio">
+                    <label for="MenorIdade">Menor de Idade</label>
+                    <input type="radio" name="idade" id="MenorIdade">
+                </div>
+            </div>
+            <div>
+                <p>Áreas de interesse</p>
+                <select name="areas" id="areas">
+                    <optgroup>
+                        <option value="selecionar">Selecione uma área de Interesse</option>
+                        <option value="Culinária">Culinária</option>
+                        <option value="Cultura">Cultura</option>
+                        <option value="Entretenimento">Entretenimento</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="check">
+
+                <p>Selecione sua categoria</p>
+
+                <div id="item">
+                    <label for="check">Turista</label>
+                    <input type="checkbox">
+                </div>
+
+                <div>
+                    <label for="check">Residente</label>
+                    <input type="checkbox">
+                </div>
+
+                <div>
+                    <label for="check">Estudante</label>
+                    <input type="checkbox">
+                </div>
+            
+            </div>
+
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

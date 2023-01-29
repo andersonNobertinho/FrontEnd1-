@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ 
+    scroll-behavior: smooth;
+}
+
+.menu-fundo {
+    background-color: rgb(62, 182, 238);
+    color: white;
+    width: 100%;
+    height: auto ;
+    position: fixed;
+    z-index: 1;  
+}
+
+.menu-fundo a {
+    color: white;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+.navbar-toggler {
+    color: white;
+    background-color:  rgb(62, 182, 238);
+    margin: 10px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/menu-suspenso.png");
+}
+
+
+.btn-form {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 50;
+    border: 0;
+    border-radius: 10px;
+    transition: background-color, 1s;
+}
+
+.btn-form:hover {
+    background-color: white;
+    color: rgb(35, 22, 216);
+    transition: background-color, 1s;
+
+}
+
+.meu-container {
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fixed-bg {
+
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://images.unsplash.com/photo-1591717707289-ff546dc1efee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=873&q=80");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#imagem-fundo-nothing-hill{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://i.ytimg.com/vi/zb8RPslTrEc/maxresdefault.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-fundo-embusca{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://dinheirama.com/wp-content/uploads/2008/02/a-procura-da-felicidade.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-fundo-constantine{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://www.themoviedb.org/t/p/original/gpTcQGlNnqxZNwA9h45i1ITzt9b.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-game{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://amantesurfwear.com/wp-content/uploads/wallpapers//cinema/cinema-114/game-of-thrones-season-8-fan-poster-jw-2560x1440.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-fundo-dark{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://wallpaperaccess.com/full/1605477.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-fundo-sob{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://media-manager.noticiasaominuto.com.br/1920/naom_5b98da3c04a72.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-fundo-familia{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/05/CON_aty011.1033_lm_v1-scaled-1.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-fundo-hotel{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://uploads.emaisgoias.com.br/2021/08/1d4a3114-hotel-transilvania-4.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagem-fundo-dalmatas{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://www.designerwomen.co.uk/wp-content/uploads/2021/06/dalmatas.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagina{
+    padding: 20px;
+    background-color: rgb(212, 192, 162);
+    font-size: 1.5rem;
+}
+.pagina a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: blue;
+
+}
+
+
+.conteudo{
+    padding: 0 55px ;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.flex-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.flex-conteiner h3 {
+    padding: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.card-footer {
+    background-color: rgb(62, 182, 238);
+}
+
+.texto {
+    color: white;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+
+
+.btn-footer {
+    border: 0;
+    min-width: 25%;
+    height: 4vh;
+    border-radius: 5px;
+    color: white;
+    transition: background-color, 0.2s;
+}
+
+.btn-footer:hover {
+    background-color: white;
+    color: rgb(35, 22, 216);
+    transition: background-color, 1s;
+}
+
+.btn {
+    width: 15%;
+    height: 8vh;
+    min-width: 20%;
+    border-radius: 25px;
+    font-size: 1.6rem;
+}
+
+.banner-titulo{
+    margin:3vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color:rgb(62, 182, 238);
+
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.164), rgba(252, 252, 245, 0.226)),url(https://mateinbox.com.br/wp-content/uploads/2019/01/sao-paulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(rgb(61, 114, 158, 0.8));
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+}
+
+
+form {
+    background-color: rgb(8, 107, 66);
+    width: 50%;
+    height: auto;
+    padding: 25px;
+    border-radius: 10px;
+    margin: auto;
+    border: floralwhite 5px solid;
+}
+
+
+legend {
+    color: white;
+    font-size: 35px;
+    margin: 20px;
+}
+
+label {
+    margin: 0 15px;
+    text-align: center;
+    color: rgb(253, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+input::placeholder {
+    color: rgb(212, 214, 214);
+}
+
+#campo input {
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    width: 80%;
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+
+
+p {
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.faixa {
+    position: relative;
+}
+
+.radio input {
+    width: 15px;
+    height: 15px;
+
+}
+
+select {
+    width: 70%;
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color: darkslategray;
+    border: rgb(106, 151, 151);
+}
+
+.check input {
+    height: 2vh;
+    width: 5%;
+}
+
+#item {
+    padding-left: 25px;
+}
+
+.botoes {
+    text-align: center;
+}
+
+button {
+    margin: 15px;
+    width: 30%;
+    height: 7vh;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkslategray;
+    transition: background-color, 0.8s;
+}
+
+button:hover{
+    transition: 5ms;
+    background-color: turquoise;
+
+}
