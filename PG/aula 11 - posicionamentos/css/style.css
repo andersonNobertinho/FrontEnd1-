@@ -1,0 +1,40 @@
+.caixa-1{
+
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+
+.caixa-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 4, 105);
+}
+
+.caixa-3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(194, 191, 7);
+    right: 100px;
+    bottom: 50px;
+}
+
+.caixa-4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(134, 5, 33);
+}
+
+.botaoCriar{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: aqua;
+    right: 50px;
+    bottom: 50px;
+}

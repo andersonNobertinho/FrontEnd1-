@@ -1,0 +1,32 @@
+body {
+  color: red;
+}
+
+body {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  color: yellowgreen;
+}
+
+.job-title {
+  background-color: aqua;
+}
+
+p {
+  background-color: brown;
+}
+
+#high {
+  background-color: coral;
+}
+
+footer {
+  background-color: darkcyan;
+}
+
+a {
+  background-color: blueviolet;
+}
