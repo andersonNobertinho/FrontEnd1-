@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Fieldset Permite agrupar quando existe vários elementos de formulário associados. 
+    Cada fieldset deve ter uma legenda-->
+    <fieldset>
+        <!-- Legend é o texto que descreve o grupo de associados dos elementos do formulário-->
+        <legend>Tipo de equipamento</legend> <br>
+
+        <!-- Para agruparmos um input do tipo radio o parametro name deve ser igual em todos os inputs-->
+        <input id="pc" type="radio" name="rb3" value="radiobutton">
+        <label for="pc">PC</label><br>
+        <input id="linux" type="radio" name="rb3" value="radiobutton" >
+        <label for="linux">Linux</label><br>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Hobbies</legend>
+        <input type="checkbox" name="hobbies" value="Música">
+        <input type="checkbox" name="hobbies" value="Pintura" checked>
+        <input type="checkbox" name="hobbies" value="Jogar" checked> <br>
+        <input type="date" name="data" value="2022-07-24" min="1986-10-09" max="08-02-2023">
+        <link rel="stylesheet" href="./css/style.css">
+
+    </fieldset>
+
+    <p>
+        Escolha um carro:
+        <select name="" id="">
+            <optgroup label="Ferrari"> 
+                <option>458 Spider</option>
+                <option>F12 Berlinetta</option>
+                <option>California</option>
+            </optgroup>
+            
+            <optgroup label="Porche">
+                <option>Macan</option>
+                <option>918 Spyder</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <a href="http://globo.com">testando link</a>
+    <button>enviar</button>
+
+
+</body>
+</html>
